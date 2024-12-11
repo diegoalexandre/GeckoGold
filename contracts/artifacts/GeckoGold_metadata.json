@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -885,7 +885,7 @@
 		"compilationTarget": {
 			"contracts/GeckoGold.sol": "GeckoGold"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -1066,11 +1066,11 @@
 			]
 		},
 		"contracts/GeckoGold.sol": {
-			"keccak256": "0xe70bf18789a7e98ab5857b3d00b2ed365cc68a739ac2ae7fb9420fbf71398686",
+			"keccak256": "0x0f73891c769b2ea16f89b1bd4312fde961b5df4de05cc85a77d100985cc2e199",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://30e9bdb35f3094db80206abfafdcdc1de7f6f3858e8a7f3ae453f8f8f13afad0",
-				"dweb:/ipfs/QmY3S3nDa7bTMdwTGw7UMS1RGFSRToZyT7CMMdqNjbMqAX"
+				"bzz-raw://d29eadc7f5fcff974ba40600e642a6db6317edf6d08d46cb1249a7a3e9271c7c",
+				"dweb:/ipfs/QmaWGGHELJs3NjJ96ebnUcfZsZYHQFejJiL1tjWx1i73Z1"
 			]
 		}
 	},

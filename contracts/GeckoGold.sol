@@ -26,9 +26,6 @@ contract GeckoGold is ERC20, Ownable, ReentrancyGuard {
     constructor() ERC20("GeckoGold", "GECKO") Ownable(msg.sender) {
         // Distribution of tokens
 
-        // 50% Burn (sent to a dead address)
-        _mint(address(0x000000000000000000000000000000000000dEaD), (TOTAL_SUPPLY * 50) / 100);
-
         // 25% Liquidity pool
         _mint(msg.sender, (TOTAL_SUPPLY * 25) / 100);
 
