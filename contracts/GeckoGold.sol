@@ -30,10 +30,10 @@ contract GeckoGold is ERC20, Ownable, ReentrancyGuard {
         _mint(msg.sender, (TOTAL_SUPPLY * 25) / 100);
 
         // 15% Marketing and community rewards
-        _mint(0x02bFf1B7B4e9F2483b429afbA11DDB474F552678, (TOTAL_SUPPLY * 15) / 100); // Replace with your marketing wallet address
+        _mint(0x02bFf1B7B4e9F2483b429afbA11DDB474F552678, (TOTAL_SUPPLY * 25) / 100); // Replace with your marketing wallet address
 
         // 10% Team and development (vesting handled off-chain)
-        _mint(0x78F48f0a33277Ac7ff8672f9a71596759cf489D2, (TOTAL_SUPPLY * 10) / 100); // Replace with your team wallet address
+        _mint(0x78F48f0a33277Ac7ff8672f9a71596759cf489D2, (TOTAL_SUPPLY * 50) / 100); // Replace with your team wallet address
     }
 
     // Function to set an address as blacklisted
