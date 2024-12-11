@@ -207,11 +207,11 @@
 	},
 	"sources": {
 		"contracts/GeckoGold_flattened.sol": {
-			"keccak256": "0x09f063ce4c89bb75dcf952a2c9eb714ff0ada4c42e3e3c8af2e4f6c8902ecc44",
+			"keccak256": "0xadf7f4aa5cfa19886aed0ac4fd03d6dbf2ea4adf8cb5aebdb87b84919255e73e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b91e4af1e4794cd7c5ebf768fa7cfd15e05f56379942ecd8e3bd5596234f56da",
-				"dweb:/ipfs/QmR6mWRQw11ehzXaUfgvyDTcm4VpeGQQTHEL5MwtHdKw6n"
+				"bzz-raw://1fc0111341da51f86fe5ada90831aa2c1665b4bd0ee314bc3d0ee30eb6ea97ce",
+				"dweb:/ipfs/QmTBREKnDFPF1rViWqFqxxMm28oF4vv9gkAQmTropKVhwo"
 			]
 		}
 	},
