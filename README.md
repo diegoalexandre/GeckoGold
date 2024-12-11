@@ -1,6 +1,4 @@
-# Generating the README file content for GeckoGold Token
 
-readme_content = """
 # GeckoGold Token
 
 GeckoGold ($GECKO) is an ERC-20 token developed to provide exclusive features, community rewards, and support integration in games and platforms.
@@ -47,3 +45,64 @@ GeckoGold ($GECKO) is an ERC-20 token developed to provide exclusive features, c
 
   ```solidity
   function updateEngagementPoints(address user, uint256 points) external onlyOwner;
+  ```
+
+- **Deduct Points:**
+  The owner can remove engagement points if necessary.
+
+  ```solidity
+  function deductEngagementPoints(address user, uint256 points) external onlyOwner;
+  ```
+
+- **Claim Rewards:**
+  Users can convert their points into $GECKO tokens.
+
+  ```solidity
+  function claimReward() external;
+  ```
+
+### **Contract Management**
+- **Pause Transactions:**
+  Allows the owner to pause or resume transactions.
+
+  ```solidity
+  function pause() external onlyOwner;
+  function unpause() external onlyOwner;
+  ```
+
+- **Rescue Stuck Tokens:**
+  The owner can recover tokens accidentally sent to the contract.
+
+  ```solidity
+  function rescueTokens(address token, uint256 amount) external onlyOwner;
+  ```
+
+- **Set Tax Rate:**
+  Adjust the transaction fee within the allowed limit.
+
+  ```solidity
+  function setTaxRate(uint256 newTaxRate) external onlyOwner;
+  ```
+
+---
+
+## How to Interact
+
+### 1. **Deploy the Contract**
+- Use Remix Ethereum or frameworks like Hardhat to deploy the contract.
+- Make sure to have enough ETH or BNB to cover gas fees.
+
+### 2. **Interaction Tools**
+- **Etherscan/BscScan:** To interact directly with the contract functions.
+- **Custom Frontend:** A user dashboard can be developed later.
+
+---
+
+## Security and Transparency
+- **Audited Code:** The contract was designed with best security practices to avoid common exploits.
+- **Events:** All important actions are logged on the blockchain to ensure transparency.
+
+---
+
+## License
+This project is licensed under the **MIT License**.
