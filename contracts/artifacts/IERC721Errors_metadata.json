@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -194,7 +194,7 @@
 		"compilationTarget": {
 			"contracts/GeckoGold_flattened.sol": "IERC721Errors"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -207,11 +207,11 @@
 	},
 	"sources": {
 		"contracts/GeckoGold_flattened.sol": {
-			"keccak256": "0xcca73a51eea88b6212bea02b9e36958c8fc99e0c7fb9ad2c8f2beed0c02c1fdf",
+			"keccak256": "0x81c1862ac5a634d464d86f23997b2d24f02a6161741d3394edc6452a8b5a08cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8ccbbf5b3df9516a9f4b427e62323d3e009ad800072a1d75536629ab02f8608a",
-				"dweb:/ipfs/QmUY8xMRJUkFq5xDWwMBxTn8gDCztuRnbNf89rKaHH4Zqq"
+				"bzz-raw://c5617cb3ad46160ef2b1bfb3d69f36defb46c07d12bb0152eccef90b9f4a7ad9",
+				"dweb:/ipfs/QmdMFe5xnkBZBoDVqDbPXPvztY1VhYgTu6AxXLsXtJeaoG"
 			]
 		}
 	},
