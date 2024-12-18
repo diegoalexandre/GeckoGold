@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -245,11 +245,11 @@
 	},
 	"sources": {
 		"contracts/GeckoGold_flattened.sol": {
-			"keccak256": "0x81c1862ac5a634d464d86f23997b2d24f02a6161741d3394edc6452a8b5a08cd",
+			"keccak256": "0x6b0b275ed4c44288ea08addaa620191b2aed100d9673960f269d90e51c559030",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c5617cb3ad46160ef2b1bfb3d69f36defb46c07d12bb0152eccef90b9f4a7ad9",
-				"dweb:/ipfs/QmdMFe5xnkBZBoDVqDbPXPvztY1VhYgTu6AxXLsXtJeaoG"
+				"bzz-raw://f30f59ca612095d4faa9a66f17a3977ce20eec9e588282dbf342b1ba094e7a0b",
+				"dweb:/ipfs/QmbpGj6Dnj8HBQ2sSYMhLNbe2Z133NNeg7VK1U5HV7JUHe"
 			]
 		}
 	},

@@ -4018,10 +4018,11 @@ contract GeckoGold is ERC20, Ownable, ReentrancyGuard {
     uint256 public tradingStartBlock;
     bool public tradingEnabled = false;
     bool public paused = false;
+    string private logoURI;
 
     constructor() ERC20("GeckoGold", "GECKO") Ownable(msg.sender) {
         // Distribution of tokens
-
+        logoURI = "https://pbs.twimg.com/profile_images/1866562723540070400/t6tHAnAh_400x400.jpg";
         // 25% Liquidity pool
         _mint(msg.sender, (TOTAL_SUPPLY * 25) / 100);
 
@@ -4030,6 +4031,10 @@ contract GeckoGold is ERC20, Ownable, ReentrancyGuard {
 
         // 10% Team and development (vesting handled off-chain)
         _mint(0x78F48f0a33277Ac7ff8672f9a71596759cf489D2, (TOTAL_SUPPLY * 50) / 100); // Replace with your team wallet address
+    }
+
+    function getLogoURI() public view returns (string memory) {
+        return logoURI;
     }
 
     // Function to set an address as blacklisted
